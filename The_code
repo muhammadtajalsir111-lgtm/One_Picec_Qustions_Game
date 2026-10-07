@@ -1,0 +1,212 @@
+score=0
+def Straw_hat_pirate():
+    global score
+    #print(str1)
+    q_1=input("if you move to a new neighborhood,do you will get companionship all the neighborhood?\n\na.no,just who around me for i need something\nb.yes,i must do that or I will be bored\nc.i don't ,it doesn't important\nd.yes but not all the neighborhood\n" )
+    if q_1=="a":
+        score+=1
+    elif q_1=="b":
+        score+=2
+    elif q_1=="c":
+        score+=3
+    elif q_1=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer')
+    print(q_1)
+    q_2=input("you walk on street and find two men fight,what you do with that?\n\na.keep walking and i'm not see any thing\nb.i go tell my friends too see what happen\nc.stay away and watching\nd.end the conflict\n" )
+    if q_2=="a":
+        score+=1
+    elif q_2=="b":
+        score+=2
+    elif q_2=="c":
+        score+=3
+    elif q_2=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer')
+    print(q_2)
+    q_3=input("what type book you like from following:\n\na.History\nb.science\nc.Stories and novels\nc.i'm not read a books in first place \nd.another type\n" )
+    if q_3=="a":
+        score+=1
+    elif q_3=="b":
+        score+=2
+    elif q_3=="c":
+        score+=3
+    elif q_3=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_3)
+    q_4=input("are you discipline on exercise?\n\na.yes, already discipline from a while\nb.yes but practice on another thing\nc.no\nd.i'm try but it's hard\n")
+    if q_4=="a":
+        score+=1
+    elif q_4=="b":
+        score+=2
+    elif q_4=="c":
+        score+=3
+    elif q_4=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_4)
+    q_5=input("How much turbulent on your childhood?\n\na.I was imp broke any thing\nb.I was spoiled kid\nc.I don't remeber\nd.my childhood was miserable\n" )
+    if q_5=="a":
+        score+=1
+    elif q_5=="b":
+        score+=2
+    elif q_5=="c":
+        score+=3
+    elif q_5=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_5)
+    q_6=input("Did you hit dogs on street?\n\na.conversely I feed them\nb.some times\nc.yes,because of they annoying\nd.if they attack me I will never forgive them\n")
+    if q_6=="a":
+        score+=1
+    elif q_6=="b":
+        score+=2
+    elif q_6=="c":
+        score+=3
+    elif q_6=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_6)
+    q_7=input("if back on time to Middle ages and you have fight ,what the weapon you chose it?\n\na.sword\nb.arrow and bow\nc.bayonet\nd.if dose way to fight by hand\n")
+    if q_7=="a":
+        score+=1
+    elif q_7=="b":
+        score+=2
+    elif q_7=="c":
+        score+=3
+    elif q_7=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_7)
+    q_8=input("you meet a witch and she will give you one wish,what is it ?\n\na.the mony what I want anther it\nb.I want one copy of me,need doing a lot of things and haven't time \nc.never take any thing from her i don't trust her\nd.anther wish\n" )
+    if q_8=="a":
+        score+=1
+    elif q_8=="b":
+        score+=2
+    elif q_8=="c":
+        score+=3
+    elif q_8=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_8)
+    q_9=input("assume you can drawing and you have drawing painting for city,what will be it?\n\na.about mothers they peace and sweet of life\nb.it will be the most awesome painting with american style\nc.about the current situation of the world\nd.anther topic\n" )
+    if q_9=="a":
+        score+=1
+    elif q_9=="b":
+        score+=2
+    elif q_9=="c":
+        score+=3
+    elif q_9=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_9)
+    q_10=input("Who your favorites UNCO ?\n\na.shanks,I like his principles and he evalutat his friends\nb.kaido, strong and powerful it's like this being the leader\nc.big mom,she have every thing and get what is want it ,atainy time\nd.teach,smart and know things not any one know them\n" )
+    if q_10=="a":
+        score+=1
+    elif q_10=="b":
+        score+=2
+    elif q_10=="c":
+        score+=3
+    elif q_10=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_10)
+    q_11=input("you in bathyscaphe and it drowns you a leader ,what you will doing?\n\na.get transmitter for ask a help and waiting\nb.try close the hole by any way\nc.run away\nd.make all of them get out and give them buoy for riseing up\n" )
+    if q_11=="a":
+        score+=1
+    elif q_11=="b":
+        score+=2
+    elif q_11=="c":
+        score+=3
+    elif q_11=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_11)
+    q_12=input("what you learn from your biggest failure?\n\na.don't trust any one\nb.control my self when anger and hopelessness\nc.must do what I see is right even every one against me\nd.must working hard for get rest in future\n" )
+    if q_12=="a":
+        score+=1
+    elif q_12=="b":
+        score+=2
+    elif q_12=="c":
+        score+=3
+    elif q_12=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_12)
+    q_13=input("what the most thing you boast it?\n\na.my thinking style\nb.belonging my family and my cantry\nc.what I got and my status\nd.don't have a lot of things now but in future\n" )
+    if q_13=="a":
+        score+=1
+    elif q_13=="b":
+        score+=2
+    elif q_13=="c":
+        score+=3
+    elif q_13=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_13)
+    q_14=input("what you want chang it on your self?\n\na.my face it's need some eidts\nb. my neighborhood or country which I liveing on it\nc.nothing\nd.a lot of things\n" )
+    if q_14=="a":
+        score+=1
+    elif q_14=="b":
+        score+=2
+    elif q_14=="c":
+        score+=3
+    elif q_14=="d":
+        score+=4
+    else:
+        print('you not select the "letter" or may be select another answer,try again')
+    print(q_14)
+    if score in range(0,14):
+        print('you like "Brook":        he always support people around you,        and making sure everyone is having a good time    " )')
+        exit()
+    elif score in range(14,18):
+        print('you like "sanji":        he not have only an uncanny ability to pick up on people\'s underlying beliefs. ')
+        exit()
+    elif score in range(18,23):
+        print('you like "robin":        she cherich her independence and often find hereslves most productive during the late evening hours.')
+        exit()
+    elif score in range(23,28):
+        print('you like "jimbe":       his dedication is an admirable quality, and it drives his accomplishment.')
+        exit()
+    elif score in range(28,32):
+        print('you like "nami":       she dedicated individuals who pride herselve on them reliable and trustworthy')
+        exit()
+    elif score in range(32,37):
+        print('you like "usopp":       for he no belief is too sacred to be questioned,no idea is too always finishing what they start,rendering important to be')
+        exit()
+    elif score in range(37,42):
+        print('you like "zoro":       he love explore with their hands and their eyes,touching and examining diligence,a casual curiousity ')
+        exit()
+    elif score in range(42,46):
+        print('you like "franky":        he is entrepreneur.he tend to be energetic and action-oriented,deftly navigating whatever is in front of him.')
+        exit()
+    elif score in range(46,51):
+        print('you like "luffy":        he loves vibrant experiences,engaging in discovering the unknown.')
+        exit()
+    elif score in range(51,56):
+        print('you like "chopper":        the hardworking and devoted,these personalities feel a deep sense of responsibility to those around him.')
+        exit()
+
+while True:
+    p=input("are you ready we will ask you some question for get know how like you on 'straw hat pirate' ,select the letter of your answer\n\na.yes i'm ready\nb.no not now\n")
+    if p=="a":
+        Straw_hat_pirate()
+    elif p=="b":
+        print("okey tell us when you ready")        
+        Straw_hat_pirate() # Note: This will launch the game even if they said no.
+    else:
+        print("you not select the 'letter' or may be select another answer,by runing the programe")
